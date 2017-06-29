@@ -1,0 +1,3 @@
+load("/Users/David/Dropbox/EVID/R/florida.Rdata")
+dim(florida)
+head(florida)

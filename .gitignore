@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+Data
+Plots
+R/OLD
+EVID.Rproj
+.DS_Store
+Paper/*
+!*evid.tex
+!*evid-cites.bib
