@@ -572,19 +572,19 @@ hours to vote, and 9,684 voters, who checked-in after 9:00pm, must
 have waited at least two hours to vote.
 
 % > vte %>% filter(time > 19) %>% count()
-% # A tibble: 1 × 1
+% # A tibble: 1 Ã— 1
 %       n
 %   <int>
 %   54329
 
 % > vte %>% filter(time > 20) %>% count()
-% # A tibble: 1 × 1
+% # A tibble: 1 Ã— 1
 %       n
 %   <int>
 %   24294
 
 % > vte %>% filter(time > 21) %>% count()
-% # A tibble: 1 × 1
+% # A tibble: 1 Ã— 1
 %       n
 %   <int>
 %   24294
@@ -686,7 +686,7 @@ Asian early voters, who became increasingly Democratic as time
 progressed.
 
 %> vte %>% summarize(pct = mean(party == "DEM"))
-%# A tibble: 1 × 1
+%# A tibble: 1 Ã— 1
 %       pct
 %     <dbl>
 %1 0.564601
@@ -927,7 +927,7 @@ similar to those in \citet{pettigrew:longlinesminorityprecincts}.
 \section*{Conclusion}
 
 The presence of lengthy voting lines in General Elections in the
-United States has been of recent concern to scholars of election
+American States has been of recent concern to scholars of election
 administration. Burdensome wait times not only impose opportunity
 costs, but they might also discourage future electoral participation.
 Hence, researchers have been working to learn more about the
